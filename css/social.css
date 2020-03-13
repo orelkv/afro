@@ -45,6 +45,5 @@
 
 .social__pic:hover {
 	background-color: #e1942a;
-	transform: rotateY(360deg);
 }
 
