@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe2debfc-074c-4211-aaa5-af69aff091be" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ДЗ №2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1WwAqsw1ztVdZFGVxZvoBMMvyYU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ДЗ №3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Другой диск\Это все проги\Лофт скул\ДЗ №3\img\main-page\features" />
+      <recent name="I:\Другой диск\Это все проги\Лофт скул\ДЗ №3\img\main-page" />
+      <recent name="F:\Это все проги\Лофт скул\ДЗ №2\img\menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ДЗ №3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe2debfc-074c-4211-aaa5-af69aff091be" name="Default Changelist" comment="" />
+      <created>1580050477962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580050477962</updated>
+      <workItem from="1580050480869" duration="4095000" />
+      <workItem from="1580054747698" duration="460000" />
+      <workItem from="1580061808765" duration="27000" />
+      <workItem from="1580061894580" duration="175000" />
+      <workItem from="1580220556237" duration="591000" />
+      <workItem from="1580222281850" duration="1982000" />
+      <workItem from="1580230041364" duration="1779000" />
+      <workItem from="1580569260964" duration="16164000" />
+      <workItem from="1580728689476" duration="30434000" />
+      <workItem from="1580767759723" duration="284000" />
+      <workItem from="1580768725109" duration="728000" />
+      <workItem from="1580800237705" duration="294000" />
+      <workItem from="1580801227875" duration="757000" />
+      <workItem from="1580804722855" duration="36000" />
+      <workItem from="1580809005195" duration="123000" />
+      <workItem from="1580931149234" duration="5399000" />
+      <workItem from="1581010323056" duration="10027000" />
+      <workItem from="1581176677256" duration="20981000" />
+      <workItem from="1581230670324" duration="5039000" />
+      <workItem from="1581250165494" duration="21000" />
+      <workItem from="1581268297852" duration="12274000" />
+      <workItem from="1581318174121" duration="5782000" />
+      <workItem from="1581333126215" duration="10477000" />
+      <workItem from="1581406146695" duration="16268000" />
+      <workItem from="1581601509364" duration="1546000" />
+      <workItem from="1582038068815" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="94" key="#Inspections" timestamp="1580731877079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="94" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1580731877079" />
+    <state x="627" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581421446596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581421446596" />
+    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1582038203725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582038203725" />
+    <state x="344" y="21" key="SettingsEditor" timestamp="1581180795507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="245" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580054544604" />
+    <state x="344" y="21" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581180795507" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1580233418147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1580233418146" />
+    <state x="566" y="179" width="787" height="682" key="find.popup" timestamp="1581269338027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="566" y="179" width="787" height="682" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581269338027" />
+    <state x="532" y="150" key="run.anything.popup" timestamp="1581340258974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="532" y="150" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581340258974" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1581019709466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581019709466" />
+  </component>
+</project>

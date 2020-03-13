@@ -1,0 +1,48 @@
+.pagination {
+	text-align: center;
+}
+
+.comments__pagination {
+	padding-top: 43px;
+}
+
+.pagination__text, .pagination__nav, .pagination__list,
+.pagination__item {
+	display: inline-block;
+}
+
+.pagination__text {
+	font: 300 14px "Roboto", Arial, sans-serif;
+	color: #656464;
+	margin-right: 20px;
+}
+
+.pagination__nav a, .pagination__item {
+	font: bold 14px "Roboto", Arial, sans-serif;
+	color: #262424;
+	margin-right: 1px;
+	transition: all .5s;
+}
+
+.pagination__link, .pagination__left, .pagination__right {
+	padding: 5px;
+}
+
+.pagination__nav a:hover {
+	color: #e1942a;
+}
+
+.pagination__item--active a {
+	background-color: #2b2b40;
+	padding: 4px 8px;
+	border-radius: 3px;
+	color: #e1942a;
+}
+
+a.pagination__no-way {
+	color: #bfbfbf;
+}
+
+a.pagination__no-way:hover {
+	color: #bfbfbf;
+}

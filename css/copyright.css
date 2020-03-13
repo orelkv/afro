@@ -1,0 +1,16 @@
+.copyright {
+	width: 250px;
+	font: 300 14px "open_sans", Arial, sans-serif;
+	color: #ffffff;
+	text-align: left;
+}
+
+.copyright__link {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.copyright__text {
+	font-weight: bold;
+}

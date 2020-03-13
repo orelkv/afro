@@ -1,0 +1,54 @@
+.animation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/first-page-fon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+
+@keyframes logo-animation {
+	0% {transform: scale(0);}
+	5% {transform: scale(.3);}
+	10% {transform: scale(.6);}
+	15% {transform: scale(.9);}
+	20% {transform: scale(1.2);}
+	40% {transform: scale(.9);}
+	60% {transform: scale(1.1);}
+	80% {transform: scale(.9);}
+	100% {transform: scale(1);
+	}
+}
+.animation__content {
+	width: 200px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	animation: logo-animation 1s 1s linear both;
+}
+
+.animation__img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.animation__btn {
+	width: 172px;
+	height: 45px;
+	border-radius: 3px;
+	font: bold 12px "open_sans", Arial sans-serif;
+	color: #ffffff;
+	background-color: #131415;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	transition: transform 1s, background-color .1s .2s;
+}
+
+.animation__form:hover .animation__btn {
+	background-color: #f89513;
+	transform: rotateY(360deg);
+}

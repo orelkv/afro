@@ -1,0 +1,27 @@
+.post-scriptum {
+	display: flex;
+	justify-content: center;
+	background-image: url("../img/comments-page/comments-fon.png");
+	margin-bottom: 61px;
+}
+
+.post-scriptum__article {
+	width: 1100px;
+	display: flex;
+	padding-top: 21px;
+	padding-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.post-scriptum__article p {
+	width: 636px;
+	font: 300 18px "open_sans", Arial sans-serif;
+	color: #ffffff;
+	line-height: 1.667;
+}
+
+.post-scriptum__text {
+	color: #e1942a;
+}
+

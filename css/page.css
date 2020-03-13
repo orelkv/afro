@@ -1,0 +1,4 @@
+.main__container {
+	flex-direction: column;
+	align-self: center;
+}

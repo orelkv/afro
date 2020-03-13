@@ -1,0 +1,68 @@
+.partners__list {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.partners__item {
+	width: calc(100% / 3 - 44px);
+	margin-bottom: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+.partners__link {
+	width: 100%;
+	text-align: center;
+}
+
+.partners__link:before {
+	content: "";
+	width: 160px;
+	height: 63px;
+	display: inline-block;
+	background: center center no-repeat;
+	transition: filter 1s;
+}
+
+.partners__item--flamingo .partners__link:before {
+	background-image: url("../img/service-page/partners/flamingo-color.png");
+}
+
+.partners__item--malibu .partners__link:before {
+	background-image: url("../img/service-page/partners/malibu-color.png");
+}
+
+.partners__item--lion .partners__link:before {
+	background-image: url("../img/service-page/partners/lion-color.png");
+}
+
+.partners__item--arni .partners__link:before {
+	background-image: url("../img/service-page/partners/arni-color.png");
+}
+
+.partners__item--grip .partners__link:before {
+	background-image: url("../img/service-page/partners/grip-color.png");
+}
+
+.partners__item--atletika .partners__link:before {
+	background-image: url("../img/service-page/partners/atletika-color.png");
+}
+
+.partners__item--flamingo .partners__link:before ,
+.partners__item--malibu .partners__link:before ,
+.partners__item--lion .partners__link:before ,
+.partners__item--arni .partners__link:before ,
+.partners__item--grip .partners__link:before ,
+.partners__item--atletika .partners__link:before  {
+	filter: grayscale(1);
+}
+
+.partners__item--flamingo .partners__link:hover:before ,
+.partners__item--malibu .partners__link:hover:before ,
+.partners__item--lion .partners__link:hover:before ,
+.partners__item--arni .partners__link:hover:before ,
+.partners__item--grip .partners__link:hover:before ,
+.partners__item--atletika .partners__link:hover:before  {
+	filter: grayscale(0);
+}

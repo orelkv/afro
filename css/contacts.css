@@ -1,0 +1,105 @@
+.contacts {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: inherit;
+}
+
+.contacts__phone,
+.contacts__workhours {
+  font: bold 12px "open_sans", Arial, sans-serif;
+}
+
+.contacts__phone {
+  color: inherit;
+  font-size: 21px;
+}
+
+.contacts__workhours {
+  color: #e1942a;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__workhours-link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.contacts__workhours-text {
+  width: 160px;
+  height: 70px;
+  border-radius: 3px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 30;
+  background-color: #ffffff;
+  padding: 12px 14px 15px 19px;
+  line-height: 1.7;
+  text-align: left;
+  box-shadow: 0 0 10px #9d9fa5;
+  left: -999999px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.contacts__workhours-text:after {
+  content: "";
+  height: 39%;
+  display: block;
+  top: -35%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.triangle {
+  width: 50px;
+  height: 26px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  top: 14px;
+  right: -5px;
+}
+
+.triangle:before {
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: block;
+  top: 22px;
+  right: 6px;
+  z-index: 40;
+  transform: rotate(45deg);
+  position: absolute;
+	box-shadow: 0 0 10px #9d9fa5;
+	left: -999999px;
+  opacity: 0;
+  transition: opacity 1s;
+  background-color: #ffffff;
+}
+
+.contacts__dinner {
+  color: #262424;
+  font-weight: 300;
+}
+
+.contacts__workhours:hover .contacts__workhours-link {
+  color: #cccccc;
+}
+
+.contacts__workhours:hover .contacts__workhours-text {
+  display: block;
+  left: initial;
+  opacity: 1;
+}
+
+.contacts__workhours:hover .triangle::before {
+	display: block;
+	left: initial;
+  opacity: 1;
+}

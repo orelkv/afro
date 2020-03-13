@@ -1,0 +1,9 @@
+.slogan {
+	width: 100%;
+	height: 623px;
+	display: flex;
+	background-color: #ffffff;
+	padding-top: 79px;
+	justify-content: center;
+	align-items: flex-start;
+}

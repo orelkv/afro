@@ -1,0 +1,29 @@
+.breadcrumbs {
+	font: italic 300 14px "open_sans", Arial sans-serif;
+	margin-bottom: 10px;
+}
+
+.breadcrumbs__list {
+	display: inline-flex;
+	justify-content: flex-start;
+}
+
+.breadcrumbs__item a {
+	color: #e1942a;
+	text-decoration: underline;
+}
+
+.breadcrumbs__item--active a {
+	color: #262424;
+	text-decoration: none;
+}
+
+.breadcrumbs__item:after {
+	content: "/";
+	color: #262424;
+	padding-right: 3px;
+}
+
+.breadcrumbs__item:last-child:after {
+	display: none;
+}

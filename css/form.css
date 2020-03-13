@@ -1,0 +1,137 @@
+.form {
+  background-color: #f4f4f4;
+  width: 700px;
+  align-self: center;
+  padding: 37px 70px 49px 64px;
+  margin-bottom: 61px;
+  border-radius: 3px;
+}
+
+.form__title {
+  text-transform: none;
+  margin-bottom: 11px;
+}
+
+.form__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 300 14px "open_sans", Arial sans-serif;
+  color: #262424;
+  margin-bottom: 21px;
+}
+
+.form__block {
+  width: calc(100% / 2 - 13px);
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #e1942a;
+}
+
+.form__input--textarea {
+  resize: vertical;
+  padding: 8px 9px;
+  height: 90px;
+}
+
+.form__elem-title {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form__buttons-row {
+  display: flex;
+  justify-content: space-between;
+  font: 300 14px "open_sans", Arial sans-serif;
+  color: #262424;
+}
+
+.switch-controls__title {
+  margin-bottom: 9px;
+}
+
+.switch-controls__elem,
+.switch-controls__elem-title,
+.switch-controls__radio {
+  display: inline-flex;
+}
+
+.switch-controls__elem {
+	margin-right: 20px;
+}
+.switch-controls__radio {
+	width: 18px;
+	height: 18px;
+	margin: 0 -18px -18px 0;
+	opacity: 0;
+}
+
+.switch-controls__radio-elem {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 1px solid #cdcdcd;
+	background-image: linear-gradient(180deg, #ffffff, #cecece);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+	transition: all 0.5s;
+}
+
+.switch-controls__radio:checked ~ .switch-controls__radio-elem {
+	background-image: linear-gradient(180deg, #ffffff, #e1942a);
+}
+
+.switch-controls__radio-elem:after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #e1942a;
+	display: none;
+}
+
+.switch-controls__radio:checked ~ .switch-controls__radio-elem:after {
+	opacity: 1;
+	display: block;
+}
+
+.switch-controls__elem:hover .switch-controls__radio-elem {
+	transform: rotate(180deg);
+}
+
+.switch-controls__radio:checked ~ .switch-controls__elem-title {
+  color: #e1942a;
+}
+
+.form__button {
+  width: 125px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #222423;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.form__button:hover {
+  background-color: #e1942a;
+}
