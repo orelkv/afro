@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: inherit;
+  color: #ffffff;
 }
 
 .contacts__phone,
